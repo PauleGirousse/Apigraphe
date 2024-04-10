@@ -1,0 +1,39 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.4em;
+  min-width: 375px;
+}
+
+header {
+  background-color: blue;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+nav a:hover, nav a:active {
+  color: #04d98b;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-decoration-color: #04d98b;
+}/*# sourceMappingURL=style.css.map */

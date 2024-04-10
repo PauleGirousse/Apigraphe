@@ -1,0 +1,40 @@
+// Mixins pour les Flexbox
+
+@mixin flex_column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @mixin flex_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  // Breakpoint pour les versions mobile
+
+@mixin mobile($name) {
+    @if $name == "smaller" {
+      @media screen and (max-width: 380px) {
+        @content;
+      }
+    } @else if $name == "small" {
+      @media screen and (max-width: 400px) {
+        @content;
+      }
+    }
+  }
+
+  // Breakpoint pour les versions tablettes et desktop
+
+@mixin breakpoint($name) {
+    @if $name == "medium" {
+      @media screen and (min-width: 880px) {
+        @content;
+      }
+    } @else if $name == "large" {
+      @media screen and (min-width: 1000px) {
+        @content;
+      }
+    }
+  }

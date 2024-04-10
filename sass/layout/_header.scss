@@ -1,0 +1,7 @@
+header {
+    background-color: blue;
+    padding: 30px;
+  @include flex_row;
+  justify-content: space-between;
+  align-items: center;
+}

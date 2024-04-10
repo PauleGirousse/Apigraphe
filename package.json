@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "sass": "^1.74.1"
+  },
+  "name": "apigraphe",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch ./sass/style.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauleGirousse/Apigraphe.git"
+  },
+  "author": "Apigraphe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauleGirousse/Apigraphe/issues"
+  },
+  "homepage": "https://github.com/PauleGirousse/Apigraphe#readme",
+  "description": ""
+}
