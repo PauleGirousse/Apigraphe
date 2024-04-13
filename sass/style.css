@@ -1,3 +1,7 @@
+h2 {
+  font-family: "PPNeueMontreal-Italic", sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -16,8 +20,8 @@ body {
 }
 
 header {
-  background-color: blue;
-  padding: 30px;
+  background-color: #0000FF;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,15 +29,56 @@ header {
   align-items: center;
 }
 
+nav {
+  color: white;
+}
 nav a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   padding: 0 10px;
 }
+nav a hr {
+  color: white;
+}
 nav a:hover, nav a:active {
   color: #04d98b;
   -webkit-text-decoration: dotted;
           text-decoration: dotted;
   text-decoration-color: #04d98b;
+}
+
+.banniere {
+  height: 950px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: start;
+  color: white;
+  background-image: url(../../assets/images/background\ 2000.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banniere-content {
+  margin-top: 200px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.banniere-content p {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #04d98b;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: PPNeueMontreal-Italic;
+  font-size: 100px;
 }/*# sourceMappingURL=style.css.map */

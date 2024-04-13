@@ -1,3 +1,36 @@
+@font-face {
+  font-family: PPNeueMontreal-Medium;
+  src: url(/fonts/PPNeueMontreal-Medium.otf);
+}
+@font-face {
+  font-family: PPNeueMontreal-Italic;
+  src: url(/fonts/PPNeueMontreal-Italic.ttf);
+}
+@font-face {
+  font-family: PPNeueMontreal-BoldItalic;
+  src: url(/fonts/PPNeueMontreal-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PPNeueMontreal-Bold;
+  src: url(/fonts/PPNeueMontreal-Bold.otf);
+}
+.medium {
+  font-family: "PPNeueMontreal-Medium", sans-serif;
+  font-weight: 400;
+}
+
+.bold {
+  font-family: "PPNeueMontreal-Bold", sans-serif;
+}
+
+.italic {
+  font-family: "PPNeueMontreal-Italic", sans-serif;
+}
+
+.bold-italic {
+  font-family: "PPNeueMontreal-BoldItalic", sans-serif;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -16,8 +49,8 @@ body {
 }
 
 header {
-  background-color: blue;
-  padding: 30px;
+  background-color: #0000FF;
+  padding: 50px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -25,16 +58,91 @@ header {
   align-items: center;
 }
 
+nav {
+  color: white;
+}
 nav a {
   text-decoration: none;
   color: white;
   text-transform: uppercase;
   padding: 0 10px;
 }
+nav a hr {
+  color: white;
+}
 nav a:hover, nav a:active {
   color: #04d98b;
   text-decoration: dotted;
   text-decoration-color: #04d98b;
+}
+
+.banniere {
+  height: 950px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: start;
+  color: white;
+  background-image: url(../../assets/images/background\ 2000.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banniere-content {
+  margin-top: 200px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.banniere-content p {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #04d98b;
+  margin-bottom: 0;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  column-gap: 10px;
+}
+.title-section h4 {
+  text-transform: uppercase;
+  color: #0000FF;
+  margin-top: 20px;
+}
+.title-section span {
+  color: #04d98b;
+  align-self: flex-start;
+}
+
+h2 {
+  font-size: 100px;
+  margin: 50px 20%;
+  text-align: center;
+}
+h2 span {
+  color: #04d98b;
+}
+
+#apropos {
+  margin: 100px 200px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#apropos .content-apropos {
+  max-width: 800px;
 }
 
 /*# sourceMappingURL=style.css.map */

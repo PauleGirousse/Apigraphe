@@ -1,3 +1,126 @@
+header, .banniere p, h2 {
+  font-family: "PPNeueMontreal-Medium", sans-serif;
+  font-weight: 400;
+}
 
+h1, #apropos {
+  font-family: "PPNeueMontreal-Bold", sans-serif;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0 auto;
+  font-size: 1.4em;
+  min-width: 375px;
+}
+
+header {
+  background-color: #0000FF;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  color: white;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 10px;
+}
+nav a hr {
+  color: white;
+}
+nav a:hover, nav a:active {
+  color: #04d98b;
+  -webkit-text-decoration: dotted;
+          text-decoration: dotted;
+  text-decoration-color: #04d98b;
+}
+
+.banniere {
+  height: 950px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: end;
+  align-content: start;
+  color: white;
+  background-image: url(../../assets/images/background\ 2000.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.banniere-content {
+  margin-top: 200px;
+  padding-right: 150px;
+  display: flex;
+  flex-direction: column;
+}
+.banniere-content p {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+h1 {
+  font-size: 1.3em;
+  color: #04d98b;
+  margin-bottom: 0;
+}
+
+.title-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+.title-section h4 {
+  text-transform: uppercase;
+  color: #0000FF;
+  margin-top: 20px;
+}
+.title-section span {
+  color: #04d98b;
+  align-self: flex-start;
+}
+
+h2 {
+  font-size: 100px;
+  margin: 50px 20%;
+  text-align: center;
+}
+h2 span {
+  color: #04d98b;
+}
+
+#apropos {
+  margin: 100px 200px 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+#apropos .content-apropos {
+  max-width: 800px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uL3Nhc3MvYmFzZS9fdHlwb2dyYXBoaWUuc2NzcyIsIi4uL3N0eWxlLmNzcyIsIi4uLy4uL3Nhc3MvYmFzZS9fYmFzZS5zY3NzIiwiLi4vLi4vc2Fzcy9sYXlvdXQvX2hlYWRlci5zY3NzIiwiLi4vLi4vc2Fzcy91dGlscy9fdmFyaWFibGVzLnNjc3MiLCIuLi8uLi9zYXNzL3V0aWxzL19taXhpbnMuc2NzcyIsIi4uLy4uL3Nhc3MvY29tcG9uZW50cy9fYmFubmllcmUuc2NzcyIsIi4uLy4uL3Nhc3MvY29tcG9uZW50cy9fdGl0bGUtc2VjdGlvbi5zY3NzIiwiLi4vLi4vc2Fzcy9sYXlvdXQvX3BhZ2Uuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFXQTtFQUVJLGdEQUFBO0VBQ0EsZ0JBQUE7QUNYSjs7QURlQztFQUNHLDhDQUFBO0FDWko7O0FDUEE7RUFDSSxzQkFBQTtBRFVKOztBQ1JFOzs7RUFHRSxtQkFBQTtBRFdKOztBQ0NFO0VBQ0UsVUFBQTtFQUNBLGNBQUE7RUFDQSxnQkFBQTtFQUNBLGdCQUFBO0FERUo7O0FFeEJBO0VBQ0kseUJDRGE7RURFYixhQUFBO0VFTUEsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFRk5GLDhCQUFBO0VBQ0EsbUJBQUE7QUY2QkY7O0FFM0JBO0VBQ0UsWUFBQTtBRjhCRjtBRTdCQTtFQUNFLHFCQUFBO0VBQ0EsWUFBQTtFQUNBLHlCQUFBO0VBQ0EsZUFBQTtBRitCRjtBRTlCRTtFQUNJLFlBQUE7QUZnQ047QUU1QkU7RUFDSSxjQ25CVztFRG9CWCwrQkFBQTtVQUFBLHVCQUFBO0VBQ0EsOEJDckJXO0FIbURqQjs7QUtwREE7RUFDSSxhQUFBO0VET0EsYUFBQTtFQUNBLG1CQUFBO0VBQ0EsZUFBQTtFQ1BBLG9CQUFBO0VBQ0Esb0JBQUE7RUFDQSxZQUFBO0VBQ0EsZ0VBQUE7RUFDQSxzQkFBQTtFQUNBLDRCQUFBO0FMeURKOztBS3RESTtFQUNGLGlCQUFBO0VBQ0Esb0JBQUE7RURWRSxhQUFBO0VBQ0Esc0JBQUE7QUpvRUo7QUt6REU7RUFDRSxnQkFBQTtFQUNBLFNBQUE7QUwyREo7O0FLeERFO0VBQ0UsZ0JBQUE7RUFDQSxjRnJCYTtFRXNCYixnQkFBQTtBTDJESjs7QU1sRkE7RUZRSSxhQUFBO0VBQ0EsbUJBQUE7RUFDQSxlQUFBO0VFUkEscUJBQUE7RUFDQSxpQkFBQTtFQUNBLHFCQUFBO09BQUEsZ0JBQUE7QU51Rko7QU1yRkk7RUFDSSx5QkFBQTtFQUNBLGNIUlM7RUdTVCxnQkFBQTtBTnVGUjtBTXJGSTtFQUNJLGNIWFM7RUdZVCxzQkFBQTtBTnVGUjs7QU9wR0E7RUFDSSxnQkFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7QVB1R0o7QU90R0k7RUFDSSxjSkpTO0FINEdqQjs7QU9uR0E7RUFDSSxxQkFBQTtFSEhBLGFBQUE7RUFDQSxtQkFBQTtFQUNBLGVBQUE7RUdHQSxpQkFBQTtFQUNBLDhCQUFBO0FQd0dKO0FPdkdJO0VBQ0ksZ0JBQUE7QVB5R1IiLCJmaWxlIjoic3R5bGUuY3NzIn0= */

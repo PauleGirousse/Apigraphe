@@ -1,0 +1,16 @@
+.title-section{
+    @include flex_row;
+    align-items: baseline;
+    flex-wrap: nowrap;
+    column-gap: 10px;
+    
+    h4{
+        text-transform: uppercase;
+        color:$color-primary;
+        margin-top: 20px;
+    }
+    span{
+        color: $color-secondary;
+        align-self: flex-start;
+    }
+  }

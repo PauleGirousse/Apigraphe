@@ -1,16 +1,83 @@
 @font-face {
     font-family: PPNeueMontreal-Medium;
-    src: url();
+    src: url(/fonts/PPNeueMontreal-Medium.otf);
 };
 @font-face {
     font-family: PPNeueMontreal-Italic;
-    src: url();
+    src: url(/fonts/PPNeueMontreal-Italic.ttf);
 };
 @font-face {
     font-family: PPNeueMontreal-BoldItalic;
-    src: url();
+    src: url(/fonts/PPNeueMontreal-BoldItalic.ttf);
 };
 @font-face {
     font-family: PPNeueMontreal-Bold;
-    src: url();
+    src: url(/fonts/PPNeueMontreal-Bold.otf);
 }
+
+
+
+                        // fse
+// @font-face {
+
+//         fontFamily: MontrealBold;
+//         fontStretch: normal;
+//         fontStyle: "normal";
+//         fontWeight: "300 900";
+//         src: url(../../fonts/ppneuemontreal-bold.otf)}
+    
+// @font-face {
+//     font-family: MontrealBold ;
+//     src: url(/fonts/PPNeueMontreal-Bold.otf)}
+
+// @font-face {
+//     font-family: "MontrealBold, sans-serif",;
+//     src: url();
+
+// "fontFace": [
+//     {
+//         "fontFamily": "MontrealBoldItalic",
+//         "fontStretch": "normal",
+//         "fontStyle": "normal",
+//         "fontWeight": "300 900",
+//         "src": [
+//             "file:./assets/fonts/PPNeueMontreal-BoldItalic.ttf"
+//         ]
+//     }
+// ],
+// "fontFamily": "MontrealBoldItalic, sans-serif",
+// "name": "MontrealBoldItalic",
+// "slug": "MontrealBoldItalic"
+// },
+// {
+// "fontFace": [
+//     {
+//         "fontFamily": "MontrealItalic",
+//         "fontStretch": "normal",
+//         "fontStyle": "normal",
+//         "fontWeight": "300 900",
+//         "src": [
+//             "file:./assets/fonts/PPNeueMontreal-Italic.ttf"
+//         ]
+//     }
+// ],
+// "fontFamily": "MontrealItalic, sans-serif",
+// "name": "MontrealItalic",
+// "slug": "MontrealItalic"
+// },
+// {
+// "fontFace": [
+//     {
+//         "fontFamily": "MontrealMedium",
+//         "fontStretch": "normal",
+//         "fontStyle": "normal",
+//         "fontWeight": "300 900",
+//         "src": [
+//             "file:./assets/fonts/PPNeueMontreal-Medium.otf"
+//         ]
+//     }
+// ],
+// "fontFamily": "MontrealMedium, sans-serif",
+// "name": "MontrealMedium",
+// "slug": "MontrealMedium"
+// }

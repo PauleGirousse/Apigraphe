@@ -1,7 +1,25 @@
 header {
-    background-color: blue;
-    padding: 30px;
+    background-color: $color-primary;
+    padding: 50px;
   @include flex_row;
   justify-content: space-between;
   align-items: center;
 }
+nav {
+  color: white;
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 0 10px;
+  hr{
+      color: white;
+  }
+
+
+  &:hover, &:active {
+      color: $color-secondary;
+      text-decoration: dotted;
+      text-decoration-color: $color-secondary;
+  }
+}}
